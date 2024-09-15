@@ -1,0 +1,66 @@
+       
+ 
+           ASHUTOSH
+
+
+1. Find the distinct Countries you travelled to 
+
+SELECT distinct Country 
+FROM `swiggysqlpractice.travelexpenses.traveldata`
+
+
+2. What are the various expense types and the total cost associated with each?
+
+SELECT Category, sum(`Cost in Euros`)
+FROM `swiggysqlpractice.travelexpenses.traveldata`
+group by Category
+order by sum(`Cost in Euros`) desc
+
+
+3. Which was the most expensive category in Spain?
+
+Basically A query to add Sum of Categories for only Spain
+
+SELECT Category, sum(`Cost in Euros`)
+FROM `swiggysqlpractice.travelexpenses.traveldata`
+where Country = 'Spain'
+group by Category
+
+4. Travel was most expensive for which country?
+
+SELECT Country, sum(`Cost in Euros`)
+FROM `swiggysqlpractice.travelexpenses.traveldata`
+where Category = 'Travel'
+group by Country
+Order by sum(`Cost in Euros`) desc
+
+5. Are ther any countries in which the total food expenses were above 200 (Combine breakfast, lunch and dinner)
+
+SELECT Country, sum(`Cost in Euros`) as `Meal`
+FROM `swiggysqlpractice.travelexpenses.traveldata`
+where Category in ('Breakfast', 'Lunch', 'Lunch ','Dinner')
+group by Country
+having `Meal`>200
+
+6. Find out in which country you spent the most days?
+
+SELECT Country, COUNT(distinct Date)
+FROM `swiggysqlpractice.travelexpenses.traveldata`
+group by Country
+Order by COUNT(distinct Date)
+
+
+7. Find out the average cost per day spent in each country
+
+SELECT Country, sum(`Cost in Euros`)/Count(distinct Date) as `Average`
+FROM `swiggysqlpractice.travelexpenses.traveldata`
+GROUP BY Country
+Order by `Average` desc
+
+8. Write a Case Statement to Seperate breakfast, Lunch and Dinner as Food Category 
+
+SELECT 
+case when Category in ('Breakfast', 'Lunch', 'Lunch ', 'Dinner') then  'Food'
+else Category end as `New`, sum(`Cost In Euros`)
+FROM `swiggysqlpractice.travelexpenses.traveldata`
+group by `New`

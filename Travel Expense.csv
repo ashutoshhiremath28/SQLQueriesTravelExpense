@@ -1,0 +1,64 @@
+Country,Date,Category,Cost in Euros
+Maldives,18/10/2021,Travel,500
+Maldives,18/10/2021,Stay,450
+Maldives,19/10/2021,Stay,450
+Maldives,20/10/2021,Stay,450
+Maldives,18/10/2021,Breakfast,30
+Maldives,19/10/2021,Breakfast,30
+Maldives,20/10/2021,Breakfast,30
+Maldives,18/10/2021,Lunch,35
+Maldives,19/10/2021,Lunch,35
+Maldives,20/10/2021,Lunch,35
+Maldives,18/10/2021,Dinner,35
+Maldives,19/10/2021,Dinner,35
+Maldives,20/10/2021,Dinner,35
+Austria,24/12/2022,Travel,260
+Austria,24/12/2022,Stay,80
+Austria,25/12/2022,Stay,80
+Austria,26/12/2022,Stay,80
+Austria,24/12/2022,Breakfast,20
+Austria,24/12/2022,Lunch,40
+Austria,24/12/2022,Dinner,11
+Slovakia,25/12/2022,Breakfast,20
+Slovakia,25/12/2022,Lunch,26
+Slovakia,25/12/2022,Dinner,13
+Austria,24/12/2022,Metro Tickets,16
+Slovakia,25/12/2022,Travel,60
+Austria,26/12/2022,Breakfast,20
+Austria,26/12/2022,Entrance Ticket,42
+Austria,26/12/2022,Lunch,14
+Austria,26/12/2022,Dinner,32
+Slovakia,25/12/2022,Entrance Ticket,24
+Spain,8/6/2023,Travel,270
+Spain,8/6/2023,Stay,100
+Spain,9/6/2023,Stay,100
+Spain,10/6/2023,Stay,100
+Spain,11/6/2023,Stay,100
+Spain,9/6/2023,Breakfast,12
+Spain,9/6/2023,Lunch,32
+Spain,9/6/2023,Dinner,23
+Spain,10/6/2023,Breakfast,16
+Spain,10/6/2023,Lunch,28
+Spain,10/6/2023,Dinner,14
+Spain,11/6/2023,Breakfast,16
+Spain,11/6/2023,Lunch,15
+Spain,11/6/2023,Dinner,21
+Spain,10/6/2023,Entrance Ticket,60
+Bosnia,7/7/2023,Stay,30
+Bosnia,7/7/2023,Breakfast,20
+Bosnia,7/7/2023,Travel,130
+Bosnia,7/7/2023,Lunch,14
+Croatia,8/7/2023,Travel,150
+Croatia,8/7/2023,Entrance Ticket,100
+Croatia,7/7/2023,Dinner,8
+Croatia,8/7/2023,Lunch,22
+Croatia,8/7/2023,Breakfast,10
+Croatia,8/7/2023,Dinner,9
+Croatia,9/7/2023,Breakfast,5
+Croatia,9/7/2023,Lunch,14
+Croatia,9/7/2023,Dinner,12
+Bosnia,10/7/2023,Breakfast,20
+Bosnia,10/7/2023,Lunch,12
+Croatia,8/7/2023,Stay,55
+Croatia,9/7/2023,Stay,40
+Bosnia,10/7/2023,Stay,30
